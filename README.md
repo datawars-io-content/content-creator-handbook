@@ -1,1 +1,1 @@
-# content-creator-handbook
+# Content Creator Handbook
