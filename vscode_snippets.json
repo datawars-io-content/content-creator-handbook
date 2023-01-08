@@ -1,0 +1,92 @@
+{
+	"DW Page": {
+		"prefix": ["page"],
+		"body": ["<page id=\"$RANDOM_HEX\" name=\"${1:My Page title}\">\n$0", "</page>"],
+		"description": "A page for DataWars"
+	},
+	"DW Multiple choice radio activity": {
+		"prefix": ["radio-activity"],
+		"body": [
+			"<activity id=\"$RANDOM_HEX\" title=\"${1:My Activity title}\" type=\"multiple-choice\" widget=\"radio\">\n",
+			"Activity description...",
+      "",
+			"<answer id=\"$RANDOM_HEX\" is-correct>Correct answer</answer>",
+			"<answer id=\"$RANDOM_HEX\">Incorrect answer</answer>",
+			"<answer id=\"$RANDOM_HEX\">Incorrect answer</answer>",
+			"<answer id=\"$RANDOM_HEX\">Incorrect answer</answer>",
+			"<hint></hint>",
+			"<solution></solution>",
+			"</activity>"
+		],
+		"description": "A multiple-choice activity for DataWars"
+	},
+	"DW Multiple choice checkbox activity": {
+		"prefix": ["checkbox-activity"],
+		"body": [
+			"<activity id=\"$RANDOM_HEX\" title=\"${1:My Activity title}\" type=\"multiple-choice\" widget=\"checkbox\">\n",
+			"Activity description...",
+      "",
+			"<answer id=\"$RANDOM_HEX\" is-correct>Correct answer</answer>",
+			"<answer id=\"$RANDOM_HEX\" is-correct>Correct answer</answer>",
+			"<answer id=\"$RANDOM_HEX\">Incorrect answer</answer>",
+			"<answer id=\"$RANDOM_HEX\">Incorrect answer</answer>",
+			"<hint></hint>",
+			"<solution></solution>",
+			"</activity>"
+		],
+		"description": "A multiple-choice activity for DataWars"
+	},
+	"DW Input activity": {
+		"prefix": ["input-activity"],
+		"body": [
+			"<activity id=\"$RANDOM_HEX\" title=\"${1:My Activity title}\" type=\"input\">\n",
+			"Activity description...",
+      "",
+			"<correct-answer>$0</correct-answer>",
+			"<hint></hint>",
+			"<solution></solution>",
+			"</activity>"
+		],
+		"description": "A multiple-choice activity for DataWars"
+	},
+	"DW Jupyter activity": {
+		"prefix": ["jupyter-activity"],
+		"body": [
+			"<activity id=\"$RANDOM_HEX\" title=\"${1:Remove all missing locations and validate your solution}\" type=\"code\" template=\"jupyter-kernel\" device=\"jupyter\">\n",
+			"You must modify the `df` variable itself. Don't worry if you screw up with the DataFrame! just reload it with the first line of the notebook.",
+			"",
+      "<validation-code>",
+			"assert df['Location'].isna().sum() == 0, \"There are still missing values in Location\"",
+      "assert (df['Location'] == 'Other').sum() == 0, \"There are still missing values in Location\"",
+      "assert (df['Location'] == 'Missing').sum() == 0, \"There are still missing values in Location\"",
+			"</validation-code>",
+			"<hint></hint>",
+			"<solution></solution>",
+			"<metadata name=\"notebook_path\">Project.ipynb</metadata>",
+			"</activity>"
+		],
+		"description": "A code activity for DataWars"
+	},
+	"DW Code activity": {
+		"prefix": ["code-activity"],
+		"body": [
+			"<activity id=\"$RANDOM_HEX\" title=\"${1:Remove all missing locations and validate your solution}\" type=\"code\" template=\"Container\" device=\"jupyter\" workdir=\"/app\">\n",
+			"Create a file named `a_file.csv` with the data requested. We'll check the file exists and has the correct data",
+			"",
+      		"<validation-code>",
+			"from pathlib import Path",
+			"assert Path('a_file.csv').exists()",
+			"assert Path('a_file.csv').open().readline() == 'hello,world'",
+			"</validation-code>",
+			"<hint></hint>",
+			"<solution></solution>",
+			"</activity>"
+		],
+		"description": "A code activity for DataWars"
+	},
+	"DW Answer": {
+		"prefix": ["answer-multiple-choice"],
+		"body": ["<answer id=\"$RANDOM_HEX\">$TM_SELECTED_TEXT$0</answer>"],
+		"description": "An answer of a multiple choice activity for DataWars"
+	}
+}
