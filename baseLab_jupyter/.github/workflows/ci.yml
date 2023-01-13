@@ -1,0 +1,17 @@
+name: Continuous Integration Actions
+
+on: push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pull repository
+        uses: actions/checkout@v2
+
+      - name: Install `dw-content-tools` package
+        run: pip3 install dw-content-tools
+
+      - name: Run content validation
+        run: content_tools validate-module-repo .
