@@ -18,7 +18,10 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Jupyter Activity](#toc-jupyter-activity)
   - [Code Activity](#toc-code-activity)
   - [Activity Solutions](#toc-code-activity)
-
+- [Writing your lab](#toc-writing-your-lab)
+- [Tooling](#toc-tooling)
+  - [Visual Studio Code](#toc-tooling-vscode)
+  - [Docker](#toc-tooling-docker)
 
 # <a id="toc-goal-mission"></a>DataWars Goal and Mission
 
@@ -175,3 +178,59 @@ Check the following example:
 
 
 There are exceptions, of course. Sometimes the solution is just a one liner. But most of the time, we want to make sure we help the student reason while reading the solution, and not just give them the correct answer.
+
+# <a id="toc-writing-your-lab"></a>Writing your lab
+
+This section needs further expansion. For now, see the following self-explanatory templates:
+
+* [Python + Jupyter](https://github.com/datawars-io-content/sample-lab-jupyter)
+* [SQL with MySQL](#)
+* [R with RStudio](#)
+* [R with Jupyter](#)
+
+# <a id="toc-tooling"></a>Tooling
+
+Writing the labs and the activities might look a little annoying at first, given the specific syntax we require for our activities. That's why we've written a bit of a framework to simplify your job. Let's start with the editor and content writing section.
+
+
+## <a id="#toc-tooling-vscode"></a> Visual Studio Code
+
+The recommended text editor is [Visual Studio Code](https://code.visualstudio.com/) (or VSCode for short). It's FREE and open source.
+
+Please go ahead and install it if you don't have it already:
+
+### VSCode Snippets
+
+We're using VSCode because it lets us create some simple snippets that GREATLY simplify creating activities. You can find the snippets in this same repo: https://github.com/datawars-io-content/content-creator-handbook/blob/main/vscode_snippets.json
+
+To configure the snippets, follow these steps:
+
+#### Step 1: Configure User Snippets
+
+Use the command pallete (`cmd + shift + P`) and go to "Configure User Snippets"
+
+<img width="2160" alt="Screen Shot 2022-12-22 at 1 28 51 PM" src="https://user-images.githubusercontent.com/872296/209134972-5c506fc9-c7fa-4dda-ba91-250e7bd39628.png">
+
+#### Step 2: Add snippets
+
+Choose `markdown.json` from the list, and paste the snippets from above.
+
+<img width="2160" alt="Screen Shot 2022-12-22 at 1 28 27 PM" src="https://user-images.githubusercontent.com/872296/209134953-2001a648-6432-40ee-bee5-ad3805fafe61.png">
+
+### Using Snippets
+
+Now, while you're writing your activities, you can just fire up the command pallete (`cmd + shift + P`) and type `insert snippet` and it should show you the correct option:
+
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/872296/212668685-ae4b7dce-08b8-4446-91e1-17492bd3cf74.png">
+
+Then, just select the one you're looking for:
+
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/872296/212668819-4682df14-4d50-406f-a9b2-9b80a5fa3f69.png">
+
+### Pasting images
+
+There's a very convenient extension that let's you paste images from your Clipboard directly into VSCode and create a file: [Paste Image VSCode extension](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image).
+
+## <a id="#toc-tooling-docker"></a> Docker
+
+It might not be required for you, but we use Docker to run our labs. Please see install instructions on [their official page](https://www.docker.com/products/docker-desktop/).
