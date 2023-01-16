@@ -184,7 +184,7 @@ There are exceptions, of course. Sometimes the solution is just a one liner. But
 This section needs further expansion. For now, see the following self-explanatory templates:
 
 * [Python + Jupyter](https://github.com/datawars-io-content/sample-lab-jupyter)
-* SQL with MySQL *(coming soon)*
+* [SQL with MySQL](https://github.com/datawars-io-content/sample-lab-mysql-sakila)
 * R with RStudio *(coming soon)*
 * R with Jupyter *(coming soon)*
 
