@@ -12,6 +12,13 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Learn Projects](#toc-learn-projects)
   - [Practice Projects](#toc-practice-projects)
   - [Capstone Projects](#toc-capstone-projects)
+- [Activities](#toc-activities)
+  - [Multiple Choice Activity](#toc-multiple-choice-activity)
+  - [Single Answer Activity](#toc-single-answer-activity)
+  - [Jupyter Activity](#toc-jupyter-activity)
+  - [Code Activity](#toc-code-activity)
+  - [Activity Solutions](#toc-code-activity)
+
 
 # <a id="toc-goal-mission"></a>DataWars Goal and Mission
 
@@ -82,3 +89,89 @@ An example of a Practice Project is: [Practicing filtering sorting with Pokemon]
 Capstone projects are Practice Projects but combining multiple skills.
 
 > This section needs expanding.
+
+# <a id="toc-activities"></a>Activities
+
+Activities are at the heart of DataWars. It's what allows us to measure and keep track of our students' skills. An activity is any interactive challenge/puzzle/exercise that requests the student to complete something and we can accurately verify their result.
+
+There are different types of activities (shown below), but in general, all activities contain:
+
+* A title: brief description of what the student is requested to do
+* A description: optional, further details. This is free text (markdown), it can contain images, formatting, etc.
+* The activity itself: discussed later
+* A hint: optional, if you think something can aid your student without giving away the answer
+* The solution: how to resolve the activity. This is a very important step in the learning process. We like to explain how things work, so solutions are usually very comprehensive.
+
+The following subsections explain the different types of activities supported by DataWars. The first two (multiple choice and single answer) are "static" activities. The later two (jupyter and code activities) are dynamic activities that will check something on the user's running lab.
+
+<img width="960" src="https://user-images.githubusercontent.com/872296/212626577-50fc7d89-15cd-477c-a2ba-5be1768950c2.png">
+
+## <a id="#toc-multiple-choice-activity"></a> Multiple Choice Activity
+These are our least used and most basic type of activities. The answer can be just one option (where radio buttons will be rendered) or several (checkbox will be rendered).
+
+If possible, try to avoid this type of activity as it's easy to brute-force it. Use it for very basic topics only.
+
+## <a id="#toc-single-answer-activity"></a> Single Answer Activity
+This one checks for a single answer provided by the student. We render a simple text input and we check if the submitted solution is the same as the correct answer.
+
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/872296/212627898-acffb19d-eb28-479e-9a56-b1b0b688d74a.png">
+
+
+## <a id="#toc-jupyter-activity"></a> Jupyter Activity
+This is a "code activity" that uses the student's running lab to verify a given exercise. For example, you can ask them to define a function in their notebook and you can check if that function works correctly. Or you can ask them to load some data in a pandas DataFrame named `df` and clean it.
+
+In further sections we'll go into a lot more detail on how to write these activities. But the gist is that it works by using assertions. Following the above example, as an instructor, I'd write the following assertions to verify my students' submissions:
+
+```python
+assert `df` in globals(), "It seems like the `df` variable is not defined yet"
+assert df.isna().sum() == 0, "It seems you still have null values in your DataFrame"
+assert df.duplicated().sum() == 0, "It seems you still have duplicated in your DataFrame"
+```
+
+If all the assertions complete correctly, the activity passes and the result is recorded.
+
+## <a id="#toc-code-activity"></a> Code Activity
+
+This activity type gives you full access to the student's lab instance and you can perform any check you want. You'll need to use your skills to write the correct code validations. A few examples:
+
+### File exists
+
+We could ask our student to read a CSV, clean it correctly (removing null values and duplicates), and save it in a given path. Then, our validation code would look like:
+
+```python
+import pandas as pd
+from pathlib import Path
+
+path = Path("data_cleaned.csv")
+assert path.exists(), "Couldn't locate your file, are you sure you've saved it?"
+
+df = pd.read_csv(path)
+assert df.isna().sum() == 0, "It seems you still have null values in your DataFrame"
+assert df.duplicated().sum() == 0, "It seems you still have duplicated in your DataFrame"
+```
+
+### Python function correctly defined
+
+We could ask our students to define a module and a function, for example, the module `calculator.py` and the function `add` that takes two arguments and returns the sum of them. Validation code:
+
+```python
+try:
+    import calculator
+except ImportError:
+    assert False, "Couldn't load your module. Please verify it's correctly named"
+
+assert calculator.add(2, 3) == 5, "Your `add` function doesn't seem to work as expected"
+```
+
+## <a id="#toc-code-activity"></a> Activity Solutions
+
+Activity solutions are extremely important for us. Solutions don't just provide the correct answer, but they also show how the instructor decided to approach the problem and also communicate important conceptual topics that the student might have missed in the learning sections.
+
+Make sure your solutions explain to the student why you made the decisions you made, what approaches you considered and what alternatives are there.
+
+Check the following example:
+
+<img width="905" alt="image" src="https://user-images.githubusercontent.com/872296/212656252-59338f0b-01b8-463a-bf07-1e8b37339045.png">
+
+
+There are exceptions, of course. Sometimes the solution is just a one liner. But most of the time, we want to make sure we help the student reason while reading the solution, and not just give them the correct answer.
