@@ -54,9 +54,9 @@ The interactive lab is a combination of different devices that your student empl
 
 DataWars includes a combination of three types of projects:
 
-* Learn Projects
-* Practice Projects
-* Capstone Projects
+* **Learn Projects**: a project that explains concept, recommended time to completion should be between 20 and 30 minutes.
+* **Practice Projects**: a project to practice concepts and skills, completion time should be between 20 and 30 minutes.
+* **Capstone Projects**: a more general project that helps student practice multiple topics in the same project. It should take between 40 and 60 minutes for a student to complete them.
 
 Each fulfills a different function within the Learning Experience of our students.
 
