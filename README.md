@@ -4,6 +4,8 @@
 
 This is the starting point for all our Lab writers and content creators. Part of our culture is to be process-driven, so our objective is that all your questions should be answered here. If there's anything missing, we'd love to hear about it so we can write it and help future creators. You can email me at any time at sbasulto@datawars.io.
 
+**Important:** We're trying to provide a reduced version of this Handbook in Video format; please check the following [YouTube playlist](https://www.youtube.com/playlist?list=PLBzCxqQZiCDrJzIFE6VHK_vGzbt5Bq0va) (WIP).
+
 # Table of Contents
 
 - [DataWars Goal and Mission](#toc-goal-mission)
