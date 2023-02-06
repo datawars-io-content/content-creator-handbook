@@ -21,6 +21,7 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Code Activity](#toc-code-activity)
   - [Activity Solutions](#toc-activity-solutions)
 - [Writing your lab](#toc-writing-your-lab)
+- [Contract and Methodology](#toc-contract-methodology)
 - [Tooling](#toc-tooling)
   - [Visual Studio Code](#toc-tooling-vscode)
   - [Docker](#toc-tooling-docker)
@@ -190,12 +191,21 @@ This section needs further expansion. For now, see the following self-explanator
 * R with RStudio *(coming soon)*
 * R with Jupyter *(coming soon)*
 
+# <a id="toc-contract-methodology"></a>Contract and Methodology
+
+`#TODO: this section is under development`
+
+## <a id="toc-getting-paid"></a> Getting Paid
+
+Once you agree your contract and timelines for your projects, and in order to get paid, you'll need to submit your invoice to the email `ap@datawars.io`. In your invoice, it should include the projects you have worked on, and the individual rates for those projects + a grand total at the bottom.
+
+Along with your invoice, you must submit instructions to get paid; including your bank account information, address, full name, etc.
+
 # <a id="toc-tooling"></a>Tooling
 
 Writing the labs and the activities might look a little annoying at first, given the specific syntax we require for our activities. That's why we've written a bit of a framework to simplify your job. Let's start with the editor and content writing section.
 
-
-## <a id="#toc-tooling-vscode"></a> Visual Studio Code
+## <a id="toc-tooling-vscode"></a> Visual Studio Code
 
 The recommended text editor is [Visual Studio Code](https://code.visualstudio.com/) (or VSCode for short). It's FREE and open source.
 
@@ -233,6 +243,6 @@ Then, just select the one you're looking for:
 
 There's a very convenient extension that let's you paste images from your Clipboard directly into VSCode and create a file: [Paste Image VSCode extension](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image).
 
-## <a id="#toc-tooling-docker"></a> Docker
+## <a id="toc-tooling-docker"></a> Docker
 
 It might not be required for you, but we use Docker to run our labs. Please see install instructions on [their official page](https://www.docker.com/products/docker-desktop/).
