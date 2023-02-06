@@ -19,7 +19,7 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Single Answer Activity](#toc-single-answer-activity)
   - [Jupyter Activity](#toc-jupyter-activity)
   - [Code Activity](#toc-code-activity)
-  - [Activity Solutions](#toc-code-activity)
+  - [Activity Solutions](#toc-activity-solutions)
 - [Writing your lab](#toc-writing-your-lab)
 - [Tooling](#toc-tooling)
   - [Visual Studio Code](#toc-tooling-vscode)
@@ -111,18 +111,18 @@ The following subsections explain the different types of activities supported by
 
 <img width="960" src="https://user-images.githubusercontent.com/872296/212626577-50fc7d89-15cd-477c-a2ba-5be1768950c2.png">
 
-## <a id="#toc-multiple-choice-activity"></a> Multiple Choice Activity
+## <a id="toc-multiple-choice-activity"></a> Multiple Choice Activity
 These are our least used and most basic type of activities. The answer can be just one option (where radio buttons will be rendered) or several (checkbox will be rendered).
 
 If possible, try to avoid this type of activity as it's easy to brute-force it. Use it for very basic topics only.
 
-## <a id="#toc-single-answer-activity"></a> Single Answer Activity
+## <a id="toc-single-answer-activity"></a> Single Answer Activity
 This one checks for a single answer provided by the student. We render a simple text input and we check if the submitted solution is the same as the correct answer.
 
 <img width="958" alt="image" src="https://user-images.githubusercontent.com/872296/212627898-acffb19d-eb28-479e-9a56-b1b0b688d74a.png">
 
 
-## <a id="#toc-jupyter-activity"></a> Jupyter Activity
+## <a id="toc-jupyter-activity"></a> Jupyter Activity
 This is a "code activity" that uses the student's running lab to verify a given exercise. For example, you can ask them to define a function in their notebook and you can check if that function works correctly. Or you can ask them to load some data in a pandas DataFrame named `df` and clean it.
 
 In further sections we'll go into a lot more detail on how to write these activities. But the gist is that it works by using assertions. Following the above example, as an instructor, I'd write the following assertions to verify my students' submissions:
@@ -135,7 +135,7 @@ assert df.duplicated().sum() == 0, "It seems you still have duplicated in your D
 
 If all the assertions complete correctly, the activity passes and the result is recorded.
 
-## <a id="#toc-code-activity"></a> Code Activity
+## <a id="toc-code-activity"></a> Code Activity
 
 This activity type gives you full access to the student's lab instance and you can perform any check you want. You'll need to use your skills to write the correct code validations. A few examples:
 
@@ -168,7 +168,7 @@ except ImportError:
 assert calculator.add(2, 3) == 5, "Your `add` function doesn't seem to work as expected"
 ```
 
-## <a id="#toc-code-activity"></a> Activity Solutions
+## <a id="toc-activity-solutions"></a> Activity Solutions
 
 Activity solutions are extremely important for us. Solutions don't just provide the correct answer, but they also show how the instructor decided to approach the problem and also communicate important conceptual topics that the student might have missed in the learning sections.
 
