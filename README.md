@@ -22,6 +22,7 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Activity Solutions](#toc-activity-solutions)
 - [Writing your lab](#toc-writing-your-lab)
 - [Contract and Methodology](#toc-contract-methodology)
+  - [Getting Paid](#toc-getting-paid)
 - [Tooling](#toc-tooling)
   - [Visual Studio Code](#toc-tooling-vscode)
   - [Docker](#toc-tooling-docker)
