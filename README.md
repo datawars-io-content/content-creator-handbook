@@ -200,7 +200,7 @@ This section needs further expansion. For now, see the following self-explanator
 
 Once you agree your contract and timelines for your projects, and in order to get paid, you'll need to submit your invoice to the email `ap@datawars.io`. In your invoice, it should include the projects you have worked on, and the individual rates for those projects + a grand total at the bottom.
 
-Along with your invoice, you must submit instructions to get paid; including your bank account information, address, full name, etc.
+Along with your invoice, you must submit instructions to get paid; including your bank account information, address, full name, etc. We work mostly with banks in the USA, or the ones that have low fees. If your payment method has high fees, we can use Upwork instead. These details will be agreed upon with our staff.
 
 # <a id="toc-tooling"></a>Tooling
 
