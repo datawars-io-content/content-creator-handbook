@@ -173,6 +173,31 @@ finally:
     del expected_df
 ```
 
+### Example: checking if a Series is equals to other
+
+We could ask the Student to perform an operation on a given Series. For example, they have a DataFrame `df` which contains a column `weight_in_kilograms`. We ask them to create another column `weigth_in_grams`. We need to check that the new column exists. Columns are Series, so we must use the `from pandas.testing import assert_series_equal` method:
+
+```python
+# Same as before
+import pandas as pd
+from pandas.testing import assert_series_equal
+assert "df" in globals(), "The variable `df` is not defined"
+
+# This is the correct result of the operation
+expected_series = (df["weight_in_kilograms"] * 1_000).copy()
+
+# df["weight_in_grams"] is the new column created by the student
+assert "weight_in_grams" in df.columns, "The column `weight_in_grams` doesn't exist in `df`"
+
+# same as before, the assertion using `assert_series_equal`
+try:
+    assert_series_equal(df["weight_in_grams"], expected_series)
+except AssertionError:
+    assert False, "Your dataframe doesn't match what's expected"
+finally:
+    del expected_series
+```
+
 ## <a id="toc-code-activity"></a> Code Activity
 
 This activity type gives you full access to the student's lab instance and you can perform any check you want. You'll need to use your skills to write the correct code validations. A few examples:
