@@ -130,12 +130,48 @@ This is a "code activity" that uses the student's running lab to verify a given 
 In further sections we'll go into a lot more detail on how to write these activities. But the gist is that it works by using assertions. Following the above example, as an instructor, I'd write the following assertions to verify my students' submissions:
 
 ```python
-assert `df` in globals(), "It seems like the `df` variable is not defined yet"
+assert "df" in globals(), "It seems like the `df` variable is not defined yet"
 assert df.isna().sum() == 0, "It seems you still have null values in your DataFrame"
 assert df.duplicated().sum() == 0, "It seems you still have duplicated in your DataFrame"
 ```
 
 If all the assertions complete correctly, the activity passes and the result is recorded.
+
+### Example: checking if a DataFrame is equals to other
+
+Let's say we ask our student to clean the dataframe `df` and remove null values in the column `Price`. The student has to store the result in the variable `df_price_cleaned`. This is the gist of code we'd use to validate the student's activity:
+
+```python
+# The imports are important!
+# we don't know the student's current state or
+# if they have imported anything yet
+import pandas as pd
+from pandas.testing import assert_frame_equal
+
+# Initial sanity checks
+assert "df" in globals(), "The variable `df` is not defined"
+assert "df_price_cleaned" in globals(), "The variable `df_price_cleaned` is not defined"
+assert type(df_price_cleaned) == pd.DataFrame, "The variable `df_price_cleaned` is not a DataFrame"
+
+# This is the correct result of the operation
+expected_df = df.dropna(subset=["Price"]).copy()
+
+# now we check if the student's variable
+# contains the same as the expected (correct) result
+
+try:
+    # we use Pandas' builting testing method to
+    # compare both dataframes
+    assert_frame_equal(df_price_cleaned, expected_df)
+except AssertionError:
+    # if the dataframes don't match, an assertion is raised
+    # but we catch it, and re-raised with our custom message
+    assert False, "Your dataframe doesn't match what's expected"
+finally:
+    # we want to delete the `expected_df` variable
+    # so it doesn't remain in the student's namespace
+    del expected_df
+```
 
 ## <a id="toc-code-activity"></a> Code Activity
 
