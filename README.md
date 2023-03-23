@@ -246,6 +246,11 @@ There are exceptions, of course. Sometimes the solution is just a one liner. But
 
 # <a id="toc-writing-your-lab"></a>Writing your lab
 
+You're going to have a Github repo assigned. The repo automatically pushes your lab to the platform. There are some special commit messages, like `skip build` and `skip import`:
+<img width="2160" alt="Screen Shot 2023-03-23 at 12 43 35 PM" src="https://user-images.githubusercontent.com/872296/227228935-1b414975-468a-430a-9926-f1e314addcc4.png">
+
+<img width="2160" alt="Screen Shot 2023-03-23 at 12 44 53 PM" src="https://user-images.githubusercontent.com/872296/227228984-2c8f64d4-541c-457d-9751-4e0e1005079d.png">
+
 This section needs further expansion. For now, see the following self-explanatory templates:
 
 * [Python + Jupyter](https://github.com/datawars-io-content/sample-lab-jupyter)
