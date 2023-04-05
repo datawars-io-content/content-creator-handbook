@@ -268,6 +268,8 @@ Once you agree your contract and timelines for your projects, and in order to ge
 
 Along with your invoice, you must submit instructions to get paid; including your bank account information, address, full name, etc. We work mostly with banks in the USA, or the ones that have low fees. If your payment method has high fees, we can use Upwork instead. These details will be agreed upon with our staff.
 
+It might take us **up to 15 days to process your payment and initiate the wire**.
+
 # <a id="toc-tooling"></a>Tooling
 
 Writing the labs and the activities might look a little annoying at first, given the specific syntax we require for our activities. That's why we've written a bit of a framework to simplify your job. Let's start with the editor and content writing section.
