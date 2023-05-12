@@ -14,6 +14,7 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Learn Projects](#toc-learn-projects)
   - [Practice Projects](#toc-practice-projects)
   - [Capstone Projects](#toc-capstone-projects)
+  - [Quizzes and Knowledge Test](#toc-quizzes-knolwedge-test)
 - [Activities](#toc-activities)
   - [Multiple Choice Activity](#toc-multiple-choice-activity)
   - [Single Answer Activity](#toc-single-answer-activity)
@@ -96,6 +97,97 @@ An example of a Practice Project is: [Practicing filtering sorting with Pokemon]
 Capstone projects are Practice Projects but combining multiple skills.
 
 > This section needs expanding.
+
+## <a id="toc-quizzes-knolwedge-test"></a>Quizzes and Knowledge Test
+
+Knowledge Tests are designed to complement projects to provide a holistic assessment.
+
+There are three types of questions that quizzes should (can) have:
+
+### Conceptual questions
+
+These test the theoretical knowledge of the student. For example:
+
+```
+What's the efficiency of the membership operation of a dictionary in python? (eg: `"a" in my_dict`)
+
+- O(1) # correct
+- O(n)
+- O(log n)
+- O(n ** 2)
+```
+
+```
+If we have two dataframes, `df_a` that has 5 rows, and `df_b` that has 6 rows, and we perform a cartesian product with both of them, how many results will have the resulting DataFrame?
+
+Input: [   ]
+(Correct answer is `5 * 6 == 30`
+
+```
+
+### Syntactical questions
+
+Questions that test if the student knows how to apply the syntax or use the tools are intended. Examples:
+
+```
+In `pd.merge`, what's the name of the parameter used to specify the type of merge that will be performed (`inner`, `outer`, etc)?
+
+- `how=` # correct
+- `join=`
+- `on=`
+- `inner=`
+```
+
+```
+What's the name of the Scikit Learn function used to separate testing and training data?
+
+- `train_test_split` # correct
+- `test_split_train`
+- `split_train_test`
+- `split_test_train`
+```
+
+### Scenario questions
+
+Scenario questions ask the student to resolve a particular situation without the need of executing the code. These are REAL examples of use cases or scenarios that they might find and they must apply both the conceptual knowledge as the syntax.
+
+Scenario questions help us test students deep knowledge without the need of writing special activities that are code validated, so we can test a wide spectrum of concepts very quickly.
+
+For example:
+
+```
+Suppose you have two dataframes, `movies` and `directors` with the following structures:
+
+movies:
+
+movie_id |   title     | director_id
+------------------------------------
+819      | Top Gun     |   3
+133      | Man on Fire |   3
+
+directors:
+
+id(*) |     name     | nationality
+-----------------------------------
+91    | Tony Scott   |   US
+12    | Ridley Scott |   US
+
+
+How should we merge them to achieve the following result:
+
+movie_id |   title     | director_name | director_nationality
+--------------------------------------------------------------
+819      | Top Gun     |   Tony Scott  |        US
+133      | Man on Fire |   Tony Scott  |        US
+
+
+- `movies.merge(directors, how='left', left_on='director_id', right_index=True)` # correct
+- `movies.merge(directors, how='outer', left_on='director_id', right_index=True)`
+- `movies.merge(directors, how='outer', left_on='director_id', right_on='id')`
+- `directors.merge(movies, how='outer', left_on='director_id', right_on='id')`
+
+```
+
 
 # <a id="toc-activities"></a>Activities
 
