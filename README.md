@@ -341,8 +341,56 @@ There are exceptions, of course. Sometimes the solution is just a one liner. But
 You're going to have a Github repo assigned. The repo automatically pushes your lab to the platform. There are some special commit messages, like `skip build` and `skip import`:
 <img width="2160" alt="Screen Shot 2023-03-23 at 12 43 35 PM" src="https://user-images.githubusercontent.com/872296/227228935-1b414975-468a-430a-9926-f1e314addcc4.png">
 
-<img width="2160" alt="Screen Shot 2023-03-23 at 12 44 53 PM" src="https://user-images.githubusercontent.com/872296/227228984-2c8f64d4-541c-457d-9751-4e0e1005079d.png">
+<img width="900" src="https://user-images.githubusercontent.com/872296/227228984-2c8f64d4-541c-457d-9751-4e0e1005079d.png">
 
+### Additional artifacts
+
+Aside from `english.md` and the lab/container configuration, there are two important artifacts that are mandatory:
+
+#### Chat prompt
+
+A `chat.txt` file that contains the initial prompt for **Trooper** (our AI assistant). Here's an example of the project [Series Practice with S&P500 data](https://beta.datawars.io/project/03a3c789-cfcf-477b-ab38-d0105ff4dfda).
+
+The structure of the prompt is usually:
+
+* **General context**: What's the role of the assistant, who the student is, what is the student practicing (which topics, in which context, etc).
+* **Technology/skills**: Mention what the student is trying to master (what skills, what tools), and also mention the student's previous background.
+* **Structure of the data**: Include details of the data the project is using. If using datasets, you can use `print(df)` and just paste the structure. If you're using a database, you can describe in plain words the tables you're using. Most sample databases are already known by the agent (example, you can just mention "using the Sakila MySQL sample database").
+* **Footer**: Inlcude a footer similar to the example below, that says "the student will start asking you questions now....". Customize it to your own data if necessary.
+
+```
+You're an assistant to a student learning Data Science with Pandas and Python. The student is currently learning the basics of Series, including accesing its attributes (name, dtype, etc).
+They're practicing with a project that contains two series. One is called `market_cap` and contains information about S&P500 companies and their current Market Cap. Here are the first rows of the `market_cap` series:
+
+Symbol
+MMM     138721055226
+AOS      10783419933
+ABT     102121042306
+ABBV    181386347059
+ACN      98765855553
+Name: Market Cap, dtype: int64
+
+The second series is called `symbols` and contains the name of the companies and their symbols. Here are the first rows of `symbols`:
+
+Name
+3M Company              MMM
+A.O. Smith Corp         AOS
+Abbott Laboratories     ABT
+AbbVie Inc.            ABBV
+Accenture plc           ACN
+Name: Symbol, dtype: object
+
+The student will start asking you questions now. You should try to answer those questions by referencing the series the student is using for practice: `market_cap` and `symbols`.
+Also, you should avoid giving up the answers straight away, instead, helping the student reason in order to arrive to the correct result.
+```
+
+#### Public description of the project
+
+All projects should include a "public-facing" description to promote the project. Make it AS ENGAGING as possible. This will ensure your project is well-understood before the student starts it and can potentially grant you a better rating. Store your description in a file named `public.md`.
+
+![image](https://github.com/datawars-io-content/content-creator-handbook/assets/872296/90b3ed90-3c1a-490f-b46e-d6dced70605e)
+
+### Examples
 This section needs further expansion. For now, see the following self-explanatory templates:
 
 * [Python + Jupyter](https://github.com/datawars-io-content/sample-lab-jupyter)
