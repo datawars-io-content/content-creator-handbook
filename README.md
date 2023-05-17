@@ -1,5 +1,7 @@
 ![Black Logo - White BG](https://user-images.githubusercontent.com/872296/212477556-9dc6ce15-75c2-444d-b56e-54e5b3cff413.png)
 
+> 👉 [Link to changelog](https://github.com/datawars-io-content/content-creator-handbook/issues/2) 👈
+
 # DataWars - Content Creator Handbook
 
 This is the starting point for all our Lab writers and content creators. Part of our culture is to be process-driven, so our objective is that all your questions should be answered here. If there's anything missing, we'd love to hear about it so we can write it and help future creators. You can email me at any time at sbasulto@datawars.io.
