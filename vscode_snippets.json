@@ -119,7 +119,7 @@
 	"DW Code activity": {
 		"prefix": ["code-activity"],
 		"body": [
-			"<activity id=\"$RANDOM_HEX\" title=\"${1:Remove all missing locations and validate your solution}\" type=\"code\" template=\"Container\" device=\"jupyter\" workdir=\"/app\">\n",
+			"<activity id=\"$RANDOM_HEX\" title=\"${1:Remove all missing locations and validate your solution}\" type=\"code\" template=\"python-raw\" device=\"jupyter\" workdir=\"/app\">\n",
 			"Create a file named `a_file.csv` with the data requested. We'll check the file exists and has the correct data",
 			"",
       		"<validation-code>",
