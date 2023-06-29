@@ -24,6 +24,7 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Code Activity](#toc-code-activity)
   - [Activity Solutions](#toc-activity-solutions)
 - [Writing your lab](#toc-writing-your-lab)
+- [Fixing issues in your lab](#toc-fixing-issues-lab)
 - [Contract and Methodology](#toc-contract-methodology)
   - [Getting Paid](#toc-getting-paid)
 - [Tooling](#toc-tooling)
@@ -411,6 +412,30 @@ Once you agree your contract and timelines for your projects, and in order to ge
 Along with your invoice, you must submit instructions to get paid; including your bank account information, address, full name, etc. We work mostly with banks in the USA, or the ones that have low fees. If your payment method has high fees, we can use Upwork instead. These details will be agreed upon with our staff.
 
 It might take us **up to 15 days to process your payment and initiate the wire**.
+
+# <a id="toc-fixing-issues-lab"></a>Fixing issues reported on your lab
+
+If a user finds an issue in your lab, they'll report it from the platform. We'll then grab their report and create an issue in your repo with the details posted.
+
+It's nor responsibility now to try to reproduce the issue and fix it. Regardless if the issue actually exists, you can reproduce it or not, or you need more details, you'll need to **close the issue with a given label (this is IMPORTANT!)**. This will send an email to the user (and to the DataWars team). Keep reading for more details.
+
+You're free to comment in the issue and mention us (@santiagobasulto, @martinzugnoni, @matiascaputti). We'll be able to assist you with the issue.
+
+Once you fix the issue (or verify that the user doesn't exist), you need to assign a label and close the issue, so we can notify the user.
+
+<img width="957" alt="image" src="https://github.com/datawars-io-content/content-creator-handbook/assets/872296/f862f129-f0e7-46a0-bd09-37407d86579b">
+
+The possible labels to use, and the emails they'll send are:
+
+* `fixed-thanks`: The standard. The issue was valid and you have already fixed it. The user will be thanked for their report.
+* `duplicate`: Used if several users reported the same thing. The user will be thanked and informed that the issue had already been fixed.
+* `user-error`: This means you were NOT able to validate the issue and the activity/project works correctly. The user will be instructed to try the project again. **USE WISELY**. If we blame users for our issues, but then we verify the issues actually exist, it's going to make us look really bad.
+* `cannot-reproduce`: The user didn't provide enough information to fix the issue. This is **the worst case scenario**, because the user will provide more information via email to us directly. So you'll be left out of the loop and it'll add extra work for us. Try to double/triple check before assigning this issue.
+* `close-mute`: This is a **DANGEROUS** label. The issue will be closed and the user will NOT receive an email. Please check with us before using this label.
+
+## A note about issue reports
+
+Every week we run Issue reports for all project authors including: numbers of issues opened, number of issues closed and the labels used. So we might contact you if we see something out of ordinary.
 
 # <a id="toc-tooling"></a>Tooling
 
