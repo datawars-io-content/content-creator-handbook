@@ -352,40 +352,22 @@ Aside from `english.md` and the lab/container configuration, there are two impor
 
 #### Chat prompt
 
-A `chat.txt` file that contains the initial prompt for **Trooper** (our AI assistant). Here's an example of the project [Series Practice with S&P500 data](https://beta.datawars.io/project/03a3c789-cfcf-477b-ab38-d0105ff4dfda).
+> **IMPORTANT:** This file shouldn't exceed the ~2000 characters or ~500KB.
+
+A `chat.txt` file that contains the initial prompt for **Trooper** (our AI assistant). Here's an example for the project [Series Practice with S&P500 data]([https://beta.datawars.io/project/03a3c789-cfcf-477b-ab38-d0105ff4dfda](https://gist.github.com/santiagobasulto/bcc0f9787bcf57d1f22f3ef105835501)).
 
 The structure of the prompt is usually:
 
-* **General context**: What's the role of the assistant, who the student is, what is the student practicing (which topics, in which context, etc).
-* **Technology/skills**: Mention what the student is trying to master (what skills, what tools), and also mention the student's previous background.
+```
+The objectives of the project are:
+[PROJECT OBJECTIVES]
+
+The data the student is working with...
+[DETAILS ABOUT THE DATA (dataframe, series, database, etc)]
+```
+
+* **Project Objectives**: A high level detail of what your lab is about.
 * **Structure of the data**: Include details of the data the project is using. If using datasets, you can use `print(df)` and just paste the structure. If you're using a database, you can describe in plain words the tables you're using. Most sample databases are already known by the agent (example, you can just mention "using the Sakila MySQL sample database").
-* **Footer**: Inlcude a footer similar to the example below, that says "the student will start asking you questions now....". Customize it to your own data if necessary.
-
-```
-You're an assistant to a student learning Data Science with Pandas and Python. The student is currently learning the basics of Series, including accesing its attributes (name, dtype, etc).
-They're practicing with a project that contains two series. One is called `market_cap` and contains information about S&P500 companies and their current Market Cap. Here are the first rows of the `market_cap` series:
-
-Symbol
-MMM     138721055226
-AOS      10783419933
-ABT     102121042306
-ABBV    181386347059
-ACN      98765855553
-Name: Market Cap, dtype: int64
-
-The second series is called `symbols` and contains the name of the companies and their symbols. Here are the first rows of `symbols`:
-
-Name
-3M Company              MMM
-A.O. Smith Corp         AOS
-Abbott Laboratories     ABT
-AbbVie Inc.            ABBV
-Accenture plc           ACN
-Name: Symbol, dtype: object
-
-The student will start asking you questions now. You should try to answer those questions by referencing the series the student is using for practice: `market_cap` and `symbols`.
-Also, you should avoid giving up the answers straight away, instead, helping the student reason in order to arrive to the correct result.
-```
 
 #### Public description of the project
 
