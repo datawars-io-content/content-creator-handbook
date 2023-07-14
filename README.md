@@ -371,9 +371,16 @@ The data the student is working with...
 
 #### Public description of the project
 
-All projects should include a "public-facing" description to promote the project. Make it AS ENGAGING as possible. This will ensure your project is well-understood before the student starts it and can potentially grant you a better rating. Store your description in a file named `public.md`.
+All projects should include a "public-facing" description to promote the project. Make it **AS ENGAGING** and **CONCISE** as possible. This will ensure your project is well-understood before the student starts it and can potentially grant you a better rating. Store your description in a file named `public.md`.
 
 ![image](https://github.com/datawars-io-content/content-creator-handbook/assets/872296/90b3ed90-3c1a-490f-b46e-d6dced70605e)
+
+The public description should have the following structure:
+* High level objectives of the project (what topics the student will be practicing)
+* High level overview of the dataset (just a reference for the student to understand what they'll be working with)
+* Any extra details that you consider relevant
+
+Remember, make it concise, it shouldn't have more than ~500 characters. Don't add information just for the sake of adding information. It should be only what's relevant for the project.
 
 ### Examples
 This section needs further expansion. For now, see the following self-explanatory templates:
