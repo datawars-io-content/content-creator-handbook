@@ -7,6 +7,7 @@ Quicklinks:
 5. [Example of great projects](#5-examples-of-great-projects)
 6. How to write your projects? Notebook structure
 7. How to use Playgrounds to submit your test project
+8. Challenges
 
 ### 1) Introduction
 
@@ -100,3 +101,7 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 ### 7) How to use Playgrounds to submit your test project
 
 🎬 [Video Tutorial](https://www.loom.com/share/09ebf338269f4fa8a406731836bd487b?sid=f4823dd7-0fc5-4a1c-a575-eba4a25a232f)
+
+### 8) Challenges
+
+* [Pandas Data Analysis with Lego Dataset](https://www.loom.com/share/b5561c5135af4792b52299e9716145f6?sid=4256c385-0ac9-4357-b20c-191ff57c5d26)
