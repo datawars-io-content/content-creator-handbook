@@ -6,6 +6,7 @@ Quicklinks:
 4. [What makes a project great?](#4-what-makes-a-project-great)
 5. [Example of great projects](#5-examples-of-great-projects)
 6. How to write your projects? Notebook structure
+7. How to use Playgrounds to submit your test project
 
 ### 1) Introduction
 
@@ -95,3 +96,7 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 ### 6) How to write your projects? Notebook structure
 
 🎬 [Video Tutorial](https://www.loom.com/share/50b730aa0835400b9ab435d9a051187f?sid=0057264e-e63a-4d37-8970-fc59c1ceb1d2)
+
+### 7) How to use Playgrounds to submit your test project
+
+🎬 [Video Tutorial](https://www.loom.com/share/09ebf338269f4fa8a406731836bd487b?sid=f4823dd7-0fc5-4a1c-a575-eba4a25a232f)
