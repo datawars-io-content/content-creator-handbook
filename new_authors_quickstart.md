@@ -1,3 +1,7 @@
+Quicklinks:
+
+1. [What makes a project great?](#1-what-makes-a-project-great)
+2. [Example of great projects](#2-examples-of-great-projects)
 
 ### 1) What makes a project great?
 
