@@ -5,9 +5,9 @@ Quicklinks:
 3. [How are projects structured?](#3-how-are-projects-structured)
 4. [What makes a project great?](#4-what-makes-a-project-great)
 5. [Example of great projects](#5-examples-of-great-projects)
-6. How to write your projects? Notebook structure
-7. How to use Playgrounds to submit your test project
-8. Challenges
+6. [How to write your projects? Notebook structure](#6-how-to-write-your-projects-notebook-structure)
+7. [How to use Playgrounds to submit your test project](#7-how-to-use-playgrounds-to-submit-your-test-project)
+8. [Challenges](#8-challenges)
 
 ### 1) Introduction
 
