@@ -1,5 +1,5 @@
 
-### 1) Values and Projects
+### 1) What makes a project great?
 
 Our core value at DataWars is to create amazing, entertaining and engaging projects for our students. Something people enjoy resolving and gives them a sense of achievement.
 
@@ -35,7 +35,7 @@ FLOW gives us concrete directions on how to write projects:
 ![4443081227_207df15808_h](https://github.com/datawars-io-content/content-creator-handbook/assets/872296/02328875-1c77-47cd-99e2-7901a8b7a6e5)
 
 
-### Examples of good projects
+### 2. Examples of great projects
 
 Here's a list of outstanding projects in our platform for you to have a reference. The characteristics that make a project great are:
 
