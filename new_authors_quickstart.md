@@ -5,6 +5,7 @@ Quicklinks:
 3. [How are projects structured?](#3-how-are-projects-structured)
 4. [What makes a project great?](#4-what-makes-a-project-great)
 5. [Example of great projects](#5-examples-of-great-projects)
+6. How to write your projects? Notebook structure
 
 ### 1) Introduction
 
@@ -90,3 +91,7 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 #### Machine Learning
 
 - [Predicting intergalactic transportations with Spaceship Titanic](https://app.datawars.io/project/00ca7761-bc66-4fff-ad4f-be1ab61a5372?page=1): a guided, step by step project that guides the student to complete a classification task. This is a great example of the FLOW.
+
+### 6) How to write your projects? Notebook structure
+
+🎬 [Video Tutorial](https://www.loom.com/share/50b730aa0835400b9ab435d9a051187f?sid=0057264e-e63a-4d37-8970-fc59c1ceb1d2)
