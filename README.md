@@ -1,5 +1,7 @@
 ![Black Logo - White BG](https://user-images.githubusercontent.com/872296/212477556-9dc6ce15-75c2-444d-b56e-54e5b3cff413.png)
 
+**NEW AUTHOR?**: Start [here](https://github.com/datawars-io-content/content-creator-handbook/blob/main/new_authors_quickstart.md)
+
 > 👉 [Link to changelog](https://github.com/datawars-io-content/content-creator-handbook/issues/2) 👈
 
 # DataWars - Content Creator Handbook
