@@ -1,9 +1,37 @@
 Quicklinks:
 
-1. [What makes a project great?](#1-what-makes-a-project-great)
-2. [Example of great projects](#2-examples-of-great-projects)
+1. [Introduction](#introduction)
+2. [How are DataWars projects organized?](#)
+3. How are projects structured?
+4. [What makes a project great?](#1-what-makes-a-project-great)
+5. [Example of great projects](#2-examples-of-great-projects)
 
-### 1) What makes a project great?
+### 1) Introduction
+
+🎬 [Video Tutorial](https://www.loom.com/share/97c940afbd624bb39471a6e123a0a01f?sid=99cb168a-42a1-4443-a774-2ee948d5856b)
+
+This is a quick manual to help you get started as a project author at DataWars. We start with a few high level concepts like: how are projects organized, what makes a project, etc.
+
+Each section is summarized in a video, PLEASE WATCH THEM ALL CAREFULLY.
+
+We then explore what makes great projects including a few examples in our platform.
+
+Finally, it shows the particular mechanics of how to submit your Test project.
+
+### 2) How are DataWars projects organized?
+
+🎬 [Video Tutorial](https://www.loom.com/share/88387468b3094b99ba5a5097990c7902?sid=2f37e845-fcf0-4bc5-91ec-b5abd55cd7e3)
+
+TODO
+
+### 3) How are projects structured?
+
+🎬 [Video Tutorial](https://www.loom.com/share/293a131072fa474087c21f2ac0eb7f2f?sid=00e97585-eec9-4147-883f-a230dc5631cd)
+
+TODO
+
+### 4) What makes a project great?
+🎬 [Video Tutorial](https://www.loom.com/share/8d775a64b8e140caa1aff950eb69e4b6?sid=3c88b3cc-87e8-49d5-9450-b529c9b30e38)
 
 Our core value at DataWars is to create amazing, entertaining and engaging projects for our students. Something people enjoy resolving and gives them a sense of achievement.
 
@@ -39,7 +67,7 @@ FLOW gives us concrete directions on how to write projects:
 ![4443081227_207df15808_h](https://github.com/datawars-io-content/content-creator-handbook/assets/872296/02328875-1c77-47cd-99e2-7901a8b7a6e5)
 
 
-### 2. Examples of great projects
+### 5) Examples of great projects
 
 Here's a list of outstanding projects in our platform for you to have a reference. The characteristics that make a project great are:
 
