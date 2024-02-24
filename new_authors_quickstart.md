@@ -1,10 +1,10 @@
 Quicklinks:
 
 1. [Introduction](#introduction)
-2. [How are DataWars projects organized?](#)
-3. How are projects structured?
-4. [What makes a project great?](#1-what-makes-a-project-great)
-5. [Example of great projects](#2-examples-of-great-projects)
+2. [How are DataWars projects organized?](#2-how-are-datawars-projects-organized)
+3. [How are projects structured?](#3-how-are-projects-structured)
+4. [What makes a project great?](#4-what-makes-a-project-great)
+5. [Example of great projects](#5-examples-of-great-projects)
 
 ### 1) Introduction
 
