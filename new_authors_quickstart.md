@@ -104,4 +104,13 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 
 ### 8) Challenges
 
+| Skill                              | Playground | Loom video |
+|------------------------------------|------------|------------|
+| Data Analysis with Pandas          |            |            |
+| Machine Learning with Scikit-learn |            |            |
+| SQL                                |            |            |
+| Python Programming                 |            |            |
+
+Old challenges:
+
 * [Pandas Data Analysis with Lego Dataset](https://www.loom.com/share/b5561c5135af4792b52299e9716145f6?sid=4256c385-0ac9-4357-b20c-191ff57c5d26)
