@@ -107,9 +107,9 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 | Skill                              | Playground | Loom video |
 |------------------------------------|------------|------------|
 | Data Analysis with Pandas          | [Fork Me](https://profiles.datawars.io/sbasulto/playgrounds/325dd142-ffd5-4a0f-bb0d-496a52706860)  |            |
-| Machine Learning with Scikit-learn |            |            |
+| Machine Learning with Scikit-learn | [Fork Me](https://profiles.datawars.io/vshah/playgrounds/8eb625eb-1b2a-479f-a993-f1ff15488f87)  |            |
 | SQL                                |            |            |
-| Python Programming                 |            |            |
+| Python Programming                 | [Fork Me](https://profiles.datawars.io/vshah/playgrounds/9028cf30-7aa2-44e6-953e-56c04f724faa) |            |
 
 Old challenges:
 
