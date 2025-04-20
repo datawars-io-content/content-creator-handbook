@@ -96,7 +96,7 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 
 ### 6) How to write your projects? Notebook structure
 
-🎬 [Video Tutorial](https://www.loom.com/share/50b730aa0835400b9ab435d9a051187f?sid=0057264e-e63a-4d37-8970-fc59c1ceb1d2)
+🎬 [Video Tutorial](https://www.loom.com/share/51083b7dd1f24a31a0a01f7f66340a2c?sid=2b247d42-539b-4d13-b8f6-144a849b64d2)
 
 ### 7) How to use Playgrounds to submit your test project
 
