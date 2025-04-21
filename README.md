@@ -19,6 +19,7 @@ This is the starting point for all our Lab writers and content creators. Part of
   - [Practice Projects](#toc-practice-projects)
   - [Capstone Projects](#toc-capstone-projects)
   - [Quizzes and Knowledge Test](#toc-quizzes-knolwedge-test)
+  - [Assessments](#toc-assessments)
 - [Activities](#toc-activities)
   - [Multiple Choice Activity](#toc-multiple-choice-activity)
   - [Single Answer Activity](#toc-single-answer-activity)
