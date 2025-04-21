@@ -5,9 +5,10 @@ Quicklinks:
 3. [How are projects structured?](#3-how-are-projects-structured)
 4. [What makes a project great?](#4-what-makes-a-project-great)
 5. [Example of great projects](#5-examples-of-great-projects)
-6. [How to write your projects? Notebook structure](#6-how-to-write-your-projects-notebook-structure)
+6. [How to write your projects? Notebook structure](#6-how-to-write-your-projects-notebook-structure) 
 7. [How to use Playgrounds to submit your test project](#7-how-to-use-playgrounds-to-submit-your-test-project)
-8. [Challenges](#8-challenges)
+8. [Creating Project using DW Teams Platform](#8-how-to-use-dw-teams-platform-to-create-a-project)
+9. [Challenges](#9-challenges)
 
 ### 1) Introduction
 
@@ -25,13 +26,11 @@ Finally, it shows the particular mechanics of how to submit your Test project.
 
 🎬 [Video Tutorial](https://www.loom.com/share/88387468b3094b99ba5a5097990c7902?sid=2f37e845-fcf0-4bc5-91ec-b5abd55cd7e3)
 
-TODO
 
 ### 3) How are projects structured?
 
 🎬 [Video Tutorial](https://www.loom.com/share/293a131072fa474087c21f2ac0eb7f2f?sid=00e97585-eec9-4147-883f-a230dc5631cd)
 
-TODO
 
 ### 4) What makes a project great?
 🎬 [Video Tutorial](https://www.loom.com/share/8d775a64b8e140caa1aff950eb69e4b6?sid=3c88b3cc-87e8-49d5-9450-b529c9b30e38)
@@ -96,13 +95,17 @@ Here's a list of outstanding projects in our platform for you to have a referenc
 
 ### 6) How to write your projects? Notebook structure
 
-🎬 [Video Tutorial](https://www.loom.com/share/51083b7dd1f24a31a0a01f7f66340a2c?sid=2b247d42-539b-4d13-b8f6-144a849b64d2)
+🎬 [Video Tutorial](https://www.loom.com/share/50b730aa0835400b9ab435d9a051187f?sid=0057264e-e63a-4d37-8970-fc59c1ceb1d2)
 
 ### 7) How to use Playgrounds to submit your test project
 
 🎬 [Video Tutorial](https://www.loom.com/share/09ebf338269f4fa8a406731836bd487b?sid=f4823dd7-0fc5-4a1c-a575-eba4a25a232f)
 
-### 8) Challenges
+### 8) How to use DW teams platform to create a project
+
+🎬 [Video Tutorial](https://www.loom.com/share/51083b7dd1f24a31a0a01f7f66340a2c?sid=2b247d42-539b-4d13-b8f6-144a849b64d2)
+
+### 9) Challenges
 
 | Skill                              | Playground | Loom video |
 |------------------------------------|------------|------------|
