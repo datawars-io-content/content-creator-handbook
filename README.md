@@ -192,7 +192,13 @@ movie_id |   title     | director_name | director_nationality
 - `directors.merge(movies, how='outer', left_on='director_id', right_on='id')`
 
 ```
+## <a id="toc-assessments"></a>Assessments
 
+As the name suggests, these projects are designed to assess a user's understanding of the concepts covered in a particular skill. The questions included will focus on both the theoretical aspects and related coding activities of that skill.
+
+In this section, we also define the **learning objectives** for the skill, along with the **minimum number of correct answers** a user must achieve in order to successfully pass the assessment.
+
+A detailed video on how to create an assessment is added in New Authors Documentation : Start [here](https://github.com/datawars-io-content/content-creator-handbook/blob/main/new_authors_quickstart.md)
 
 # <a id="toc-activities"></a>Activities
 
