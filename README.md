@@ -199,7 +199,7 @@ As the name suggests, these projects are designed to assess a user's understandi
 
 In this section, we also define the **learning objectives** for the skill, along with the **minimum number of correct answers** a user must achieve in order to successfully pass the assessment.
 
-A detailed video on how to create an assessment is added in New Authors Documentation : Start [here](https://github.com/datawars-io-content/content-creator-handbook/blob/main/new_authors_quickstart.md)
+A detailed video on how to create an assessment is added in New Authors Documentation : Start [here](https://github.com/datawars-io-content/content-creator-handbook/blob/main/Assessments_Creation.md)
 
 # <a id="toc-activities"></a>Activities
 
